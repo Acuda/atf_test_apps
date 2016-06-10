@@ -3,18 +3,18 @@ testblock_circle:
     - root_frame: world
       measured_frame: reference1
       groundtruth: 6.28
-      groundtruth_epsilon: 1.0
+      groundtruth_epsilon: 1.5
 testblock_quadrat:
   path_length:
     - root_frame: world
       measured_frame: reference1
       groundtruth: 8.0
-      groundtruth_epsilon: 1.0
+      groundtruth_epsilon: 1.5
 testblock_all:
   path_length:
     - root_frame: world
       measured_frame: reference1
       groundtruth: 14.28
-      groundtruth_epsilon: 1.0
+      groundtruth_epsilon: 1.5
     - root_frame: world
       measured_frame: reference4
